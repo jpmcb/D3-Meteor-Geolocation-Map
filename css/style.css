@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: black;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+svg {
+  display: block;
+  background: steelblue;
+  border-radius: 20px 20px 20px;
+  margin: 0 auto;
+}
+
+svg path {
+  stroke-width: 0.2px;
+}
+
+svg circle {
+  fill: #560011;
+}
+
+.toolTip {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  background: #001028;
+  border-radius: 10px 10px 10px;
+}
+
+.toolTip h3 {
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.toolTip p {
+  line-height: 140%;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+a {
+  display: block;
+  margin: 25px auto;
+  color: white;
+  text-align: center;
+}
